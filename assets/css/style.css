@@ -1,0 +1,63 @@
+body {
+    background: url(../images/fortress.background.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 25px;
+    font-family: 'Bungee', cursive;
+    font-weight: bolder;
+    font-size: 34px;
+    color: #F7E60C;
+    -webkit-text-stroke: .5px black;
+    text-shadow: -4px -3px 0px #B80000;
+}
+
+.btn-primary,.reset{
+    font-family: 'Bungee', cursive;
+    font-size: 34px;
+    font-weight: bolder;
+    color: #F7E60C;
+    -webkit-text-stroke: .5px black;
+    text-shadow: -4px -3px 0px #B80000;
+
+}
+.btn-primary:hover, .reset:hover{
+    color: #B80000;
+    -webkit-text-stroke: 1px black;
+    text-shadow: -4px -3px 0px #F7E60C;
+}
+
+.container{
+    font-family: 'Bungee', cursive;
+    color: #B80000;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+    padding: 35px;
+	height: 100%;
+    width: 1000px;
+    background-color: whitesmoke;
+    opacity: .80;
+}
+
+h2, #message, #endMessage{
+	font-family: 'Bungee', cursive;
+    font-size: 30px;
+    color: #F7E60C;
+    -webkit-text-stroke: 1px black;
+    text-shadow: -4px -3px 0px #B80000;
+}
+
+.userOption{
+    font-size: 24px;
+}
+
+
+#gifs{
+	margin: 30px;
+}
+
