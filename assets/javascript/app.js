@@ -174,5 +174,6 @@ function scoreboard(){
 	$("#unanswered").html("Unanswered: " + unanswered);
 	$("#resetBtn").addClass("startOver");
 	$("#resetBtn").show();
-	$("#resetBtn").html("Try again?");
+    $("#resetBtn").html("Try again?");
+    
 }
