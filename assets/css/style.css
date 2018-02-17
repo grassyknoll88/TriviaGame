@@ -16,7 +16,7 @@ h1 {
     text-shadow: -4px -3px 0px #B80000;
 }
 
-.btn-primary,.reset{
+.btn-primary,.reset, #resetBtn{
     font-family: 'Bungee', cursive;
     font-size: 26px;
     font-weight: bolder;
@@ -25,7 +25,7 @@ h1 {
     text-shadow: -4px -3px 0px #B80000;
 
 }
-.btn-primary:hover, .reset:hover{
+.btn-primary:hover, .reset:hover, #resetBtn:hover{
     color: #B80000;
     -webkit-text-stroke: 1px black;
     text-shadow: -4px -3px 0px #F7E60C;
@@ -46,6 +46,10 @@ h1 {
     opacity: .95;
 }
 
+#timeLeft {
+    padding: 30px;
+}
+
 h2, #message, #endMessage, #correctAnswers, #incorrectAnswers, #unanswered{
 	font-family: 'Bungee', cursive;
     font-size: 26px;
@@ -54,7 +58,7 @@ h2, #message, #endMessage, #correctAnswers, #incorrectAnswers, #unanswered{
     text-shadow: -4px -3px 0px #B80000;
 }
 
-.userOption, #resetBtn{
+.userOption{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -72,7 +76,7 @@ h2, #message, #endMessage, #correctAnswers, #incorrectAnswers, #unanswered{
     display: inline-block;
     padding: 25px 60px;
   }
-  .userOption::before, .userOption::after, #resetBtn::before, #resetBtn::after{
+  .userOption::before, .userOption::after{
     content:"";
     width: 0;
     height: 2px;
@@ -89,39 +93,39 @@ h2, #message, #endMessage, #correctAnswers, #incorrectAnswers, #unanswered{
     transition: all 0.2s linear;
     background: #2739F5;
   }
-  .userOption:hover::before, .userOption:hover::after, #resetBtn:hover::before, #resetBtn:hover::after{
+  .userOption:hover::before, .userOption:hover::after{
     width: 100%;
   }
-  .userOption:hover span::before, .userOption:hover span::after, #resetBtn:hover span::before, #resetBtn:hover span::after{
+  .userOption:hover span::before, .userOption:hover span::after{
     height: 100%;
   }
   /*----- button 1 -----*/
-  .userOption::before, .userOption::after, #resetBtn::before, #resetBtn::after{
+  .userOption::before, .userOption::after{
     transition-delay: 0.2s;
   }
-  .userOption span::before, .userOption span::after, #resetBtn span::before, #resetBtn span::after{
+  .userOption span::before, .userOption span::after{
     transition-delay: 0s;
   }
-  .userOption::before, #resetBtn::before{
+  .userOption::before{
     right: 0;
     top: 0;
   }
-  .userOption::after, #resetBtn::after{
+  .userOption::after{
     left: 0;
     bottom: 0;
   }
-  .userOption span::before, #resetBtn span::before{
+  .userOption span::before{
     left: 0;
     top: 0;
   }
-  .userOption span::after, resetBtn span::after{
+  .userOption span::after{
     right: 0;
     bottom: 0;
   }
-  .userOption:hover::before, .userOption:hover::after, #resetBtn:hover::before, #resetBtn:hover::after{
+  .userOption:hover::before, .userOption:hover::after{
     transition-delay: 0s;
   }
-  .userOption:hover span::before, .userOption:hover span::after, #resetBtn:hover span::before, #resetBtn:hover span::after{
+  .userOption:hover span::before, .userOption:hover span::after{
     transition-delay: 0.2s;
   }
   

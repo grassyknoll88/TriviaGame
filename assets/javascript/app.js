@@ -133,13 +133,14 @@ function showCountdown(){
 }
 
 function answerPage(){
-	$("#currentQuestion").empty();
-	$(".userOption").empty(); 
+    $("#timeLeft").empty();
+	$("#currentQuestion").detach();
+	$(".userOption").detach(); 
 	$(".question").empty();
 
 	var rightAnswerText = triviaQuestions[currentQuestion].answerList[triviaQuestions[currentQuestion].answer];
 	var rightAnswerIndex = triviaQuestions[currentQuestion].answer;
-    $("#gifs").html('<img src = "assets/images/'+ gifArray[currentQuestion] +'.gif" width = "400px">');	//checks whether the asnwer is correct, incorrect, or unanswered
+    $("#gifs").html('<img src = "assets/images/'+ gifArray[currentQuestion] +'.gif" width = "400px">');
 	if((userSelect == rightAnswerIndex) && (answered == true)){
 		correctAnswer++;
 		$("#message").html(messages.correct);
