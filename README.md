@@ -1,37 +1,11 @@
-## Welcome to GitHub Pages
+Trivia Game
 
-You can use the [editor on GitHub](https://github.com/grassyknoll88/TriviaGame/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Our week 5 assignment was to create a trivia game utilizing timers to progress from question to question.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Overview
 
-### Markdown
+ I created a Trivia game using JavaScript for the logic and jQuery to manipulate HTML. Layout needed to have properly formatted HTML and s CSS styling. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Assignment requirements:
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/grassyknoll88/TriviaGame/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Requirements: -Create a trivia form with multiple choice or true/false options (your choice). -The player will have a limited amount of time to finish the quiz. -The game ends when the time runs out. The page will reveal the number of questions that players answer correctly and incorrectly. -Don't let the player pick more than one answer per question. -Don't forget to include a countdown timer.
